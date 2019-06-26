@@ -66,9 +66,9 @@ and [a whole bunch more emojis](https://gist.github.com/rxaviers/7360908) for fu
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| [Home page](https://prgrmfl.github.io/hyf-html-css/week4/index.html) | :white_check_mark: | | | |
-| [Team page](https://prgrmfl.github.io/hyf-html-css/week4/team.html) | :white_check_mark: | | | |
-| [Calc page](https://prgrmfl.github.io/hyf-html-css/week4/calc.html) | :white_check_mark: | | | |
+| [Home page](https://prgrmfl.github.io/javascript-1-cross-module/week-1/index.html) | :white_check_mark: | | | |
+| [Team page](https://prgrmfl.github.io/javascript-1-cross-module/week-1/team.html) | :white_check_mark: | | | |
+| [Calc page](https://prgrmfl.github.io/javascript-1-cross-module/week-1/calc.html) | :white_check_mark: | | | |
 
 
 

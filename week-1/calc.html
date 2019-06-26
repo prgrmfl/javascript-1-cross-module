@@ -1,21 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>calc</title>
+        <title>calculator page</title>
 
-  <script type="text/javascript">
-    // data (variables)
+        <script type="text/javascript">
+            // data (variables)
+            var a = 300;
+            var b = 500;
+            var team_members = ["Kale", "Fade", "Zalem"];
 
-    // functions
+            // functions
+            function print_vals(a, b) {
+                console.log(a);
+                console.log(b);
+            }
+            function add(a, b) {
+                return a + b;
+            }
+            function subtract(a, b) {
+                return a - b;
+            }
+            function multiply(a, b) {
+                return a * b;
+            }
+            function divide(a, b) {
+                return a / b;
+            }
 
-  </script>
-</head>
-
-<body>
-
-
-</body>
+        </script>
+    </head>
+    
+    <body>
+      <h1>Calculator page</h1>
+      <p>Welcome to the page of calculation!</p>
+      <a href="./index.html">Home page</a> <br>
+      <button onclick="print_vals(a, b);">Print the values to console</button> <br>
+      <button onclick="console.log(add(a, b));">Add</button> <br>
+      <button onclick="console.log(subtract(a, b));">Subtract</button> <br>
+      <button onclick="console.log(multiply(a, b));">Multiply</button> <br>
+      <button onclick="console.log(divide(a, b));">Divide</button> <br>
+    </body>
 </html>

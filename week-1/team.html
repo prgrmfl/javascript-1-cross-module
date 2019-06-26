@@ -1,20 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>team page</title>
+        <title>team page</title>
 
-  <script type="text/javascript">
-    // data (variables)
+        <script type="text/javascript">
+            // data (variables)
+            var team_name = "Rocksy";
+            var team_members = ["Kale", "Fade", "Zalem"];
 
-    // functions
+            // functions
+            function print_team_name(team_name) {
+                console.log("Hello and welcome to the page of team " + team_name);
+            }
+            function print_team_members(team_members) {
+                console.log("Team members are: " + team_members);
+            }
+            function print_complete_introduction(team_name, team_members) {
+                print_team_name(team_name);
+                print_team_members(team_members);
+            }
 
-  </script>
-</head>
-
-<body>
-
-</body>
+        </script>
+    </head>
+    
+    <body>
+      <h1>Team page</h1>
+      <p>Welcome to the page of our team!</p>
+      <a href="./index.html">Home page</a> <br>
+      <button onclick="print_team_name(team_name);">Team</button> <br>
+      <button onclick="print_team_members(team_members);">Team members</button> <br>
+      <button onclick="print_complete_introduction(team_name, team_members);">Complete introduction</button> <br>
+    </body>
 </html>

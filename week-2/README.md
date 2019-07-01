@@ -20,9 +20,9 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| Home page | :white_check_mark: | | | |
-| Team page | | | | |
-| Calc page | | | | |
+| [Home page](https://prgrmfl.github.io/javascript-1-cross-module/week-2/index.html) | :white_check_mark: | | | |
+| [Team page](https://prgrmfl.github.io/javascript-1-cross-module/week-2/team/index.html) | :white_check_mark: | | | |
+| [Calc page](https://prgrmfl.github.io/javascript-1-cross-module/week-2/calc/index.html) | :white_check_mark: | | | |
 
 
 ---

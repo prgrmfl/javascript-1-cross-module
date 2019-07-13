@@ -19,9 +19,9 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| Home page  | | | | |
-| Team page | | | | |
-| Calc page | | | | |
+| [Home page](https://prgrmfl.github.io/javascript-1-cross-module/week-3/index.html)  |  :whitecheckmark:  | | | |
+| [Team page](https://prgrmfl.github.io/javascript-1-cross-module/week-3/team/team.html) | | | | |
+| [Calc page](https://prgrmfl.github.io/javascript-1-cross-module/week-3/calc/calc.html) | | | | |
 
 
 ---

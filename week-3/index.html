@@ -1,19 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <title>home page</title>
+        <style type="text/css">
+        body {
+            background-color: rgb(214, 57, 57);
+            color: white;
+            padding: 1em;
+        }
+        body h1 {
+            text-transform: uppercase;
+            text-align: left;
+            color: yellowgreen;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+        body p {
+            font-style: oblique;
+            font-size: x-large;
+        }
+        nav {
+            margin-bottom: 3em;
+            margin-top: 1em;
+            padding: 1.1em;
+            padding-left: 1.75em;
+            font-size: large;
+            font-family: fantasy;
+        }
+        nav header {
+            padding-bottom: 1em;       
+        }
 
-  <title>home page</title>
+    
+        button {
+            background-blend-mode: darken;
+            background-color: rgb(129, 108, 74);
+            padding: 0.5em;
+            margin: 0.5em;
+            color: whitesmoke;
+            display: inline-block;
+            font-family: monospace;
+            font-size: large;
+            border-radius: 0.25rem;
+      
+            
+        }
+        </style>
 
-  <script type="text/javascript" src="./index.js"></script>
+        <script type="text/javascript" src="./functions-data.js"></script>
 
-  </script>
-</head>
-
-<body>
-  <h1>week 1 index.html</a>
-  <!-- delete this button when you're ready to start! -->
-  <a href="./example-to-study/index.html">example to study</a>
-</body>
+    </head>
+    
+    <body>
+      <h1>Project index page</h1>
+      <p>Welcome to main page of the project!</p>
+      <button id="print_det">Print project details to console...</button> <br>
+      <nav class="menu">
+          <header>
+            <a id="a1" href="./team/team.html">Team</a> <br>       
+            <a id="a2" href="./calc/calc.html">Calculator</a>       
+          </header>
+          <footer>
+            
+          </footer>
+      </nav>
+      <script type="text/javascript" src="./event-listeners.js"></script>
+    </body>
 </html>

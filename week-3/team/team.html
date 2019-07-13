@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>team page</title>
+
+        <style type="text/css">
+
+        body {
+            width: 50%;
+            padding: 2rem;
+            margin-left: 2rem;
+
+        }
+        body h1 {
+            text-transform: uppercase;
+            text-align: center;
+            color: rgb(17, 93, 93);
+            width: 80%;
+            font-weight: bolder;
+        }
+        body p {
+            font-style: oblique;
+            font-size: x-large;
+        }
+
+
+        nav {
+            border: 1.2rem groove crimson;
+            margin-bottom: 3em;
+            margin-top: 2em;
+            padding: 2.1rem;
+            padding-left: 3rem;
+            width: 50%;
+            font-size: large;
+            font-size-adjust: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        /* unvisited link */
+        nav a:link {
+            color: blueviolet;
+        }
+        /* visited link */
+        nav a:visited {
+            color: rgb(212, 173, 17);
+        }
+        /* mouse over link */
+        nav a:hover {
+            text-transform: initial;
+            color: rgb(95, 136, 14);
+        }
+        /* selected link */
+        nav a:active {
+            color: rgb(69, 69, 248);
+        }
+
+        footer {
+            border: 1.75rem outset rgb(173, 68, 30);
+            margin-bottom: 3em;
+            margin-top: 2em;
+            padding: 2rem;
+            width: 50%;
+            font-size: larger;
+            font-size-adjust: none;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        
+        button {
+            background-blend-mode: darken;
+            background-color: rgb(107, 98, 84);
+            padding: 0.5vh;
+            margin: 0.5vh;
+            color: whitesmoke;
+            display: inline-block;
+            font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+            font-size: medium;
+            border-radius: 0.1rem;
+            padding: 0.5rem;
+            
+        }
+
+        button:hover {
+            background-color: red;
+            color: white;
+            box-shadow:rgb(107, 98, 84);
+        }
+
+        </style>
+
+        <script type="text/javascript" src="./functions-data.js"></script>        
+    </head>
+    
+    <body>
+      <h1>Team page</h1>
+      <p>Welcome to the page of our team!</p>
+      <nav>
+          <header>
+              <a href="../index.html" target="_blank">Home page</a> <br>
+              <a href="../calc/calc.html" target="_blank">Calculation page</a> <br>
+          </header>
+      </nav>
+      <footer>
+      <button id="print_name">Print</button> <br>
+      <button id="print_members">Team members</button> <br>
+      <button id="print_complete_introduction">Introduction of the team</button> <br>   
+      <input id="addingAMemberToTeam" type="text">
+      <button id="addTeamMember">Add the Member to the Team</button>
+      </footer>
+      <script type="text/javascript" src="./event-listeners.js"></script>
+    </body>
+</html>
